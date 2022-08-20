@@ -4,7 +4,7 @@ import { PortfolioPage, RepositoryPage } from './pages'
 function App() {
     return (
         <div className="App">
-            <Router>
+            <Router basename="/portfolio">
                 <Routes>
                     <Route exact path="/" element={<PortfolioPage />} />
                     <Route exact path="/repos" element={<RepositoryPage />} />
