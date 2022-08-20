@@ -1,0 +1,121 @@
+/* First Part */
+
+.Container {
+    font-size: 12px;
+}
+
+.Container > .Info {
+    display: grid;
+    grid-template-columns: minmax(0, 70%) minmax(0, 30%);
+    gap: 20px;
+}
+.Info > .About {
+    width: 100%;
+    text-align: justify;
+}
+
+.Info > .Contact {
+    list-style: none;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 10px;
+    border-left: 1px solid var(--light);
+}
+
+.About > .Title {
+    margin-bottom: 0.5em;
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 800;
+}
+.Contact > .Title {
+    margin-bottom: 0.5em;
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.About > .aboutContent {
+    width: 80%;
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* ------------------------------------------------- */
+
+/* Second Part */
+
+.Container > .Professional {
+    display: grid;
+    grid-template-columns: minmax(0, 70%) minmax(0, 30%);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.Professional > .Part {
+    width: 100%;
+}
+
+.Professional > .Part div {
+    margin-bottom: 0.5em;
+}
+
+.Container > .Professional > .Part:nth-child(2) {
+    border-left: 1px solid var(--light);
+}
+
+.Container > .Professional > .Part:nth-child(2) > div {
+    padding-left: 10px;
+}
+
+.Part > div {
+    /* position: relative; */
+    width: 100%;
+}
+
+.Part > div > .Title {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Part > div > .Content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.Content > div > .Designation {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.Content > div > .Details {
+    width: 80%;
+    text-align: justify;
+}
+
+.Content > .linking a {
+    font-weight: 600;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.Content > .linking a:hover {
+    opacity: 0.7;
+    border-bottom: 1px solid var(--title-color);
+}
+
+.Edu > div {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.Edu > div > .Degree {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
