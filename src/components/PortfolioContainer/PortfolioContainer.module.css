@@ -98,6 +98,14 @@
     width: 80%;
     text-align: justify;
 }
+.Details span a {
+    color: var(--title-color);
+}
+
+.Content > .linking {
+    display: flex;
+    flex-direction: column;
+}
 
 .Content > .linking a {
     font-weight: 600;

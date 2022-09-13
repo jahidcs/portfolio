@@ -63,6 +63,40 @@ const PortfolioContainer = () => {
                         <div className={classes.Title}>Projects</div>
                         <div className={classes.Content}>
                             <div>
+                                <div className={classes.Designation}>TeleHealth</div>
+                                <div className={classes.Details}>
+                                    It is an online appointment scheduling system for doctors. Django and the Django
+                                    Rest Framework are used to implement the project's back-end (API) with JWT token
+                                    authorization. The front-end and API are integrated with the React library.
+                                    <br />
+                                    The Frontend has divided into 2 part -{' '}
+                                    <span>
+                                        <a
+                                            href="https://github.com/jahidcs/doctorkhana-patient-frontend"
+                                            target="blank">
+                                            Patient
+                                        </a>
+                                        <span> & </span>
+                                        <a href="https://github.com/jahidcs/doctorkhana-doc-frontend" target="blank">
+                                            Doctor
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className={classes.linking}>
+                                <a href="https://github.com/jahidcs/telehealth" target="blank">
+                                    Backend
+                                </a>
+                                <a href="https://github.com/jahidcs/doctorkhana-patient-frontend" target="blank">
+                                    Patient
+                                </a>
+                                <a href="https://github.com/jahidcs/doctorkhana-doc-frontend" target="blank">
+                                    Doctor
+                                </a>
+                            </div>
+                        </div>
+                        <div className={classes.Content}>
+                            <div>
                                 <div className={classes.Designation}>User Authentication JWT</div>
                                 <div className={classes.Details}>
                                     Management system authentication (sign up, sign in, sign out) system with Django
